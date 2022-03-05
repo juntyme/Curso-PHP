@@ -1,0 +1,12 @@
+<div class="titulo">Desafio do Módulo</div>
+<?php
+
+ini_set('display_errors', 1);
+
+/// Carregar arquivo usuario
+require_once('usuario.php');
+
+$usuario = new Usuario('Gustavo Mendoça', 21, 'gust_mend');
+$usuario->apresentar();
+
+
