@@ -14,7 +14,7 @@ echo "<br>$texto";
 $objeto = 'caneta';
 echo "<br>Eu tenho 5 $objeto s"; // Não resolve
 echo "<br>Eu tenho 5 {$objeto}s."; // Resolve a variavel
-echo "<br>Eu tinha 5 { $objeto}s mas perdi 3 {$objeto }s.";
+echo "<br>Eu tinha 5 { $objeto}s mas perdi 3 {$objeto}s.";
 echo "<br>";
 echo "$numero";
 // echo "{ $a + 5}"; // Gera erro não esta disponivel no php

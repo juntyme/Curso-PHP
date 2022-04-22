@@ -9,7 +9,7 @@ $d = 2;
 $e = ($a / $c) - ($b / $d) ** 2;
 $f = ($e ** 3) / (10 ** 3);
 
-echo "O Resultado final é " . $f . ".";
-echo __FILE__;
-echo __LINE__;
+echo "O Resultado final é " . $f . ".<br>";
+echo __FILE__, '<br>';
+echo __LINE__, '<br>';
 echo __METHOD__;

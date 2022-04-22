@@ -1,5 +1,5 @@
 <div class="titulo">
-Desafio String
+    Desafio String
 </div>
 
 <?php
@@ -9,6 +9,6 @@ Desafio String
 // qual o método que a posição do texto 'abc'
 // na string '!AbcaBcabc' retorn 1
 
-echo strpos('!AbcaBcabc', 'abc'). '<br>'; ## Considera sensitive
-echo stripos('!AbcaBcabc', 'abc'). '<br>'; ## desconsidera sensitive
-echo stripos(strtolower('!AbcaBcabc'), strtolower('ABC')). '<br>'; ## desconsidera sensitive
+echo strpos('!AbcaBcabc', 'abc') . '<br>'; ## Considera sensitive
+echo stripos('!AbcaBcabc', 'abc') . '<br>'; ## desconsidera sensitive
+echo stripos(strtolower('!AbcaBcabc'), strtolower('ABC')) . '<br>'; ## desconsidera sensitive

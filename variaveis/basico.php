@@ -9,7 +9,7 @@ $b = 16;
 $somaDosNumeros = $a + $b;
 echo $somaDosNumeros;  ##
 
-echo '<br>';
+echo '<br> Verifica a existencia de uma variavel <br>';
 echo isset($somaDosNumeros);  # Verifica a existencia de uma variavel
 
 unset($somaDosNumeros); # a variavel não esta mais setada
@@ -17,7 +17,7 @@ echo '<br>';
 var_dump($somaDosNumeros);
 
 $variavel = 'Agora sou uma string!';
-echo '<br />' .$variavel;
+echo '<br />' . $variavel;
 echo '<br />';
 var_dump($variavel);
 
